@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+    /* font family - google font */
+    --font-body:  "Figtree", sans-serif;
+
+    /* colors */
+    --color-s-gray-500: #AAAAAA;
+    --color-s-gray-400: #BBBBBB;
+    --color-s-gray-300: #CCCCCC;
+    --color-s-gray-200: #DDDDDD;
+    --color-s-gray-100: #EEEEEE;
+
+    --color-black-text: #1e1e24;
+    --color-black-heading: #000000;
+    --color-base-white: #FFFFFF;
+}
+
+body {
+    font-family: var(--font-body);
+}
