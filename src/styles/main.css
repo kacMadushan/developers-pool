@@ -14,3 +14,7 @@
     --color-black-text: #1e1e24;
     --color-black-heading: #000000;
 }
+
+body {
+    font-family: var(--font-body);
+}
